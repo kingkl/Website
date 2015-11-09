@@ -7,7 +7,7 @@
 				<div class="footernav floatright">
 					<a href="index.php">Home</a>&nbsp;&nbsp;&#124;&nbsp;
 					<a href="services.php">Services</a>&nbsp;&nbsp;&#124;&nbsp;
-					<a href="resume.php">Resume</a>&nbsp;&nbsp;&#124;&nbsp;
+					<!--<a href="resume.php">Resume</a>&nbsp;&nbsp;&#124;&nbsp;-->
 					<a href="contact.php">Contact</a>&nbsp;&nbsp;&#124;&nbsp;
 					<a href="portfolio.php">Portfolio</a>
 					<br>
