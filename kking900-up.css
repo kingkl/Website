@@ -244,18 +244,19 @@ td h3 {
 .repair img {width: 95%}
 
 /*Thumbnail icons*/
-
-.thumbnailIcon {
+p.thumbnailIcon img {
 	-webkit-box-shadow: 2px 2px 4px #0b1d3f, -1px -1px #f3f5f9; 
 	-moz-box-shadow: 2px 2px 4px #0b1d3f, -1px -1px #f3f5f9; 
 	box-shadow: 2px 2px 4px #0b1d3f, -1px -1px #f3f5f9;
 	-webkit-border-radius: .3em; 
 	-moz-border-radius: .3em; 
 	border-radius: .3em;
-	width: 50px;
-	height: auto;
+	width: auto;
+	height: 50px;
 	float: left;
-	margin-right: 1em;
+}
+div.thumbnailIconText {
+	margin-left: 4em;
 }
 
 /*add space to bottom of to coursework page*/

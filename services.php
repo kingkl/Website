@@ -37,8 +37,8 @@
 					<li>Digital Image enhancement.</li>
 					<li>Photograph/Digital Image repair.</li>
 				</ul><!--end unordered list-->
-				<p><a href="contact.php"><img class="thumbnailIcon" src="images/contact-small.png" alt="contact hyperlink"></a>Please <a href="contact.php">contact me</a> for additional information or to discuss your web design needs.</p>
-				<p><a href="KandiceKingResume.pdf" target="_blank"><img class="thumbnailIcon" src="images/resume-small.png" alt="resume hyperlink"></a>If you would like to see my resume you can find it here.</p>
+				<p class="thumbnailIcon"><a href="contact.php"><img  src="images/contact-small.png" alt="contact hyperlink"></a><div class="thumbnailIconText">Please <a href="contact.php">contact me</a> for additional information or to discuss your web design and development needs.</div></p>
+				<p class="thumbnailIcon"><a href="KandiceKingResume.pdf" target="_blank"><img  src="images/resume-small.png" alt="resume hyperlink"></a><div class="thumbnailIconText">If you would like to see my resume you can find it here.</div></p>
 			</div>
 		</div>
 		<div class="bottomRow"></div>

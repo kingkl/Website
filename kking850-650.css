@@ -23,6 +23,11 @@ h3 {text-align: left;
 
 /*description list*/
 
+/*Thumbnail icons*/
+p.thumbnailIcon img {
+	width: 50px;
+	height: auto;
+}
 
 /*table*/
 table {
