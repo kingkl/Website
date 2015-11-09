@@ -1,0 +1,151 @@
+body {background-color: #a6c979; 
+	color: #0b1d3f; 
+	font-size: 1em;
+	margin: 0;
+	padding:0;}
+	
+/*Site name*/
+h1  {text-align: center;
+	color: #a6c979;
+	font-size: 3em;
+	padding-top: 0;
+	margin: 0;}
+	
+/*Page headings and sub-headings*/
+h2 {text-align: center;
+	font-size: 2em;
+	padding-top: 0;}
+
+h3 {text-align: left;
+	clear: both;}
+	
+/*page separators*/
+
+
+
+
+/*table*/
+table {width: 98%; 
+	border: 0;
+	min-width: 98%;
+	max-width: 98%;
+	border-collapse: collapse;
+}
+th {height: auto;
+	width: 100%;
+	border: 0;
+	padding: 0 .5em .7em .5em;
+	text-align: center;
+	background-color: #2b55a9;
+	color: #a6c979;
+	margin: 0 1em 0 1em;
+}
+td  {width: 100%;
+	border: 0;
+	padding: .5em;
+	text-align: center;}
+td img {width: 60%;}
+#posterImg {width: 95%;}
+.tablefooter {}
+
+/*page wrapper*/
+#wrapper {
+	width: 100%; 
+	margin-right: 0; 
+	margin-left: 0;
+	min-width: 100%;
+	max-width: 100%;
+	padding: 0;
+	height: 50px;
+}
+#centerpage {width: 98%; 
+	min-width: 98%;
+	max-width: 98%;
+	background-image: url(images/column2.png), url(images/column2.png);
+	background-position: right, left;
+    background-repeat: repeat-y, repeat-y;
+}
+#footerwrapper {
+	width: 98%;
+	padding-bottom: 23px; /*creates room below footer for background images*/
+	min-width: 98%;
+	max-width: 98%;
+	background-image: url(images/columnbottom2.png), url(images/columnbottom2.png);
+	background-position: bottom right, bottom left;
+    background-repeat: no-repeat, no-repeat;
+}
+/*header info - top right bottom left*/
+
+#header {
+}
+#header p  {
+	margin: 0 30px 20px 30px;
+}
+
+/*right column info - top right bottom left*/
+#rightcolumn {
+	float: none;
+	margin: 0;
+	padding: 0;
+}	
+.fade .floatleftcol span {
+	display: block;
+	position: relative;
+	top: -35px;
+	font-size: 1.3em;
+}
+
+.columnR {
+	margin: 0 0 0 5%;
+}
+.columnL {
+	margin: 0 5% 0 0;
+}
+
+/*footer info*/
+#footer {
+}
+
+.footericon { 
+	padding: 10px 20px 0 20px;
+}
+
+/*floats & margins*/
+.floatright {float: right;}
+.floatleft {float: left;}
+.marginleft {margin-left: 50%;}
+.clearboth {clear: both;}
+.smallmargin {margin-left: 30px;}
+.centerspace  {margin-left: 35%;}
+	
+/*navigation info*/
+ul#nav {
+	font-size: 1.1em;
+}
+#mobileNav {
+	width: 100%; 
+	margin-right: 0; 
+	margin-left: 0;
+	min-width: 100%;
+	max-width: 100%;
+	padding: 0;
+}
+
+
+/*Image gallery settings*/
+#gallery {
+	height: 71em;
+}
+
+/*animations*/
+
+	
+/*mobile vs desktop*/
+#mobile-only  {display: none;}
+.content {padding: .5em 1.5em .5em 1.5em;}
+.mobile {padding: .5em 1.5em .5em 1.5em;
+	margin: 0;}
+
+/*hyper-link special effects*/
+
+	/*{shorthand: top right bottom left;}*/

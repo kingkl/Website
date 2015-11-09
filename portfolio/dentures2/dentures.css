@@ -1,0 +1,245 @@
+body  {background-color: #007F66;
+	color: #203F39;}
+table {margin: auto;
+	border: 3px solid #007F66;
+	font-family: "Times New Roman", Cambria, serif;
+	border-collapse: collapse;}
+td, th {border: 3px solid #007F66;
+	padding: .3em;}
+caption {color: #007F66;
+	font-family: Verdana, Meiryo, sans-serif;
+	font-weight: bold;
+	padding-bottom: .5em;}
+#wrapper {width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 900px;
+	max-width: 1200px;
+	font-size: 1.1em;}
+#header {font-family: Verdana, Meiryo, sans-serif;
+	text-align: right;
+	font-size: .9em;
+	height: 150px;
+	line-height: 100%;
+	background-color: #F8FFFE;
+	color: #203F39;
+	padding: 0 30px 0 0;
+	border: 3px solid #00261F;
+	background-color: #F8FFFE}
+#header img {float: left;}
+#header a {font-size: .6em;
+	font-style: italic;}
+#content {margin: 0;
+	padding: 0;
+	border: 3px solid #00261F;
+	background-image: url(images/tooth.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-color: #F8FFFE}
+#nav {font-weight: bold; 
+	font-family: Verdana, Meiryo, sans-serif;
+	padding: 1px;
+	margin: 0;}
+#nav ul {text-align: center;
+	padding-left: 0;}
+#nav li {display: inline;
+	margin: 0;
+	padding:0;}
+#nav a {text-decoration: none;
+	padding: 1em;
+	margin-left: 5%;
+	margin-right: 5%;}
+#leftcolumn {float: left;
+	color: #203F39;
+	width: 300px;
+	padding-top: 30px;
+	padding-bottom: 50px;}
+#rightcolumn {margin-left: 310px;
+	padding-right: 30px;
+	padding-left: 20px;}
+#rightcolumn img {float: right;
+	padding: 0;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 3px solid #00261F;}
+#rightcolumn dt {color: #007F66;
+	font-weight: bold;
+	font-family: Verdana, Meiryo, sans-serif;}
+.mobile-only {display: none;}
+#footer {font-size: .8em;
+	font-style: italic;
+	clear: both;
+	padding-left: 30px;}
+h2 {color: #007F66;
+	padding: 5px;
+	text-align: center;
+	font-family: Verdana, Meiryo, sans-serif;}
+.subheader {font-style: italic;
+	color: #007F66;
+	font-weight: bold;}
+.address {text-align: center;}
+.textshadow {text-shadow: 2px 2px 2px #83CEBF;}
+
+#nav a:link {color: #F8FFFE;}
+#nav a:visited {color: #F8FFFE;}
+#nav a:focus {color: #007F66; background-color: #F8FFFE;}
+#nav a:hover {color: #007F66; background-color: #F8FFFE;}
+#nav a:active {color: #007F66; background-color: #F8FFFE;}
+#footer a:link {color: #007F66;}
+#footer a:visited {color:#007F66;}
+#footer a:focus {color: #203F39;}
+#footer a:hover {color: #203F39;}
+#footer a:active {color: #203F39;}
+#rightcolumn a:link {color: #203F39;}
+#rightcolumn a:visited {color: #203F39;}
+#rightcolumn a:focus {color: #007F66; font-style: italic;}
+#rightcolumn a:hover {color: #007F66; font-style: italic;}
+#rightcolumn a:active {color: #007F66; font-style: italic;}
+#header a:link {color: rgba(0,0,0,0);}
+#header a:visited {color: rgba(0,0,0,0);}
+#header a:focus {color: rgba(0,0,0,0);}
+#header a:hover {color: rgba(0,0,0,0);}
+#header a:active {color: rgba(0,0,0,0);}
+
+@media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
+    #wrapper {
+        width: 100%;
+		margin: 0;
+		padding: 0;
+		min-width: 0px;
+    }
+	#leftcolumn{
+		display: none;
+	}
+	#rightcolumn {
+		margin-left: 10px;
+	}
+	#header {
+		margin: 0;
+		padding: 0 20px 0 0;
+		line-height: 100%;
+	}
+	#header h1 {
+		margin: 0;
+		padding: 0 0 10px 0;
+		line-height: 100%;
+	}
+	#header a {
+		line-height: 100%;
+	}
+	.subheader {
+		margin: 0;
+		padding: 0;
+		line-height: 100%;
+	}
+	#nav a {
+		margin-left: 3%;
+		margin-right: 3%
+	}
+	.mobile-only {
+		display: inline;
+		padding: 0;
+		margin: 0;
+	}
+	#footer: {
+		margin: 0;
+	}
+}
+
+
+@media only screen and (max-width: 575px), only screen and (max-device-width: 575px) {
+	img {display: none;}
+	#header {
+		background-image: url(images/smilingmouth-light.jpg);
+		background-repeat: no-repeat;
+		background-position: left center;
+		padding: 0 10px 0 10px;
+	}
+	#header h1 {
+		text-align: center;
+		line-height: 100%;
+	}
+	
+	#nav a {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+
+@media only screen and (max-width: 410px), only screen and (max-device-width: 410px) {
+	img {display: none;}
+	#header {border-bottom: 2px solid #00261F;}
+	#content {border-top: 2px solid #00261F;}
+	#nav, #nav  ul {
+		padding: 0;
+		margin: 0;
+	}
+	#nav a {
+		border-bottom: 1px solid #00261F;
+		border-top: 1px solid #00261F;
+		border-left: 3px solid #007F66;
+		border-right: 3px solid #007F66;
+		display: block;
+		margin: 0;
+		padding: 10px;
+		text-align: left;
+	}
+	#rightcolumn, #footer{
+		padding: 10px;
+		margin:0;
+	}
+
+}
+
+
+@media only screen and (max-device-width: 350px) {
+	#wrapper {
+		font-size: 3em;
+	}
+	#header {
+		background-image: url(images/tooth-header.png);
+		background-repeat: no-repeat;
+		background-position: bottom left;
+		line-height: 15%;
+		font-size: 1em;
+		height: auto; 
+	}
+	.textshadow {text-shadow: 0px 0px 5px #F8FFFE;}
+	#header a {
+		display: none;
+	}
+	#nav a {
+		font-size: 1.3em;
+		padding: .5em;
+	}
+	#content {
+		padding-left: .5em;
+		padding-right: .5em;
+	}
+	#header {
+		padding-top: .3em;
+		padding-bottom: .3em;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	#wrapper {
+		font-size: 1.1em;
+	}
+	#header {
+		line-height: 75%;
+		font-size: .85em;
+	}
+	#nav a {
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	#header {
+		line-height: 10%;
+	}
+}
+

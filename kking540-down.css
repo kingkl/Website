@@ -1,0 +1,227 @@
+body {background-color: #a6c979; 
+	color: #0b1d3f; 
+	font-size: 1em;
+	margin: 0;
+	padding:0;}
+	
+/*Site name*/
+h1  {text-align: center;
+	color: #a6c979;
+	font-size: 2.2em;
+	padding-top: 1.0%;
+	text-shadow: -1px -1px #fff, 1px 1px #0b1d3f;
+}
+	
+/*Page headings and sub-headings*/
+h2 {text-align: center;
+	font-size: 1.8em;
+	padding-top: 0;}
+
+h3 {text-align: left;
+	font-size: 1.3em;
+	clear: both;}
+	
+/*page separators*/
+
+
+/*description list*/
+
+
+/*table*/
+table {}
+th {height: auto;
+	width: 100%;
+	border: 0;
+	padding: 0 .5em .7em .5em;
+	text-align: center;
+	background-color: #2b55a9;
+	color: #a6c979;
+	font-size: 2.3em;
+	line-height: 120%;
+	margin: 0 1em 0 1em;}
+td  {width: 100%;
+	border: 0;
+	padding: .5em;
+	text-align: center;
+	background-color: #fff;}
+td img {width: 95%;}
+.tablefooter {}
+
+/*page wrapper*/
+#wrapper {
+	width: 100%; 
+	margin-right: 0; 
+	margin-left: 0;
+	min-width: 100%;
+	max-width: 100%;
+	padding: 0;
+	height: 50px;
+}
+#centerpage {
+	min-width: 280px;
+}
+	
+/*header info - top right bottom left*/
+#header img {
+	width: 95%;
+}
+#header {
+	padding: 0 10px;
+
+}
+#header p  {
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+
+
+/*floats & margins*/
+.homefloatright {float: none;
+		text-align: center;
+		padding: 0;
+		margin: 1em 0 1em 0;}
+.floatleft {float: none;}
+.floatright {float: none;}
+.marginleft {margin-left: 0;}
+.clearboth {clear: both;}
+.smallmargin {margin-left: 2em;}
+.centerspace  {margin-left: 4em;}
+	
+
+
+
+	
+/*right column info - top right bottom left*/
+#rightcolumn { 
+	float: none;
+	margin: 0;
+	padding: 0;
+}	
+	
+/*home page columns*/
+.rowIndex {
+	display: block;
+	align-items:initial;
+	justify-content:initial;
+	padding: 0;
+}
+.fade {margin-top: 15%;}
+.floatleftcol {
+	float: none;
+	width: 90%;
+	margin: 10% 5%;
+	padding: 0;
+}
+.floatleftcol a {
+	text-decoration: none;
+}
+.floatleftcol img {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+.fade .floatleftcol span {
+	display: block;
+	position: relative;
+	top: -30px;
+	font-size: 1.5em;
+	color: #f3f5f9;
+	text-shadow: 2px 2px 4px #0b1d3f;
+	/*text-shadow: -1px -1px #0b1d3f, 1px 1px #0b1d3f, 1px -1px #0b1d3f, -1px 1px #0b1d3f;*/
+}
+
+/*footer info*/
+.footerinfo {
+	padding: 10px .5em;
+	float: none;
+}
+.footericon {float: right; 
+	padding-right: .5em;
+	padding-left: 5px;}
+
+/*navigation info*/
+#icon {
+	padding: 3px 15px 2px 15px;
+}
+button.menuBtn {
+	margin: 0 14px 0 0;
+}
+
+/*Image gallery settings*/
+#gallery {display: none;}
+
+/*animations*/
+
+/*******CSS shapes********/
+.shapeParallelogram {
+	display: block;
+	width: 75px;
+	height: 50px;
+	margin: 0 15px 0 10px;
+}
+.squareBox {
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 0 15px 0 10px;
+}
+.shapeMisc{
+	display: block;
+	width: 100px;
+	height: 50px;
+	margin: 0 15px 0 10px;
+}
+.shapeCircleOutside {
+	display: block;
+	width: 75px;
+	height: 75px;
+	margin: 0 15px 0 10px;
+}
+.shapeCircle {
+	display: block;
+	width: 73px;
+	height: 73px;
+}
+
+.shapeBigSquareOutSide {
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 25px 45px 25px 25px;
+}
+.shapeSquareRotated {
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+.borderBox {
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 0 15px 0 10px;
+}
+.shapeBorder {
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+.positionRelative1, .positionRelative2, .positionRelative3  {
+	position: relative;
+	top: -10px;
+}
+
+/*CSS animations*/
+
+
+
+/*mobile vs desktop*/
+#desktop-only  {display: none;}
+#mobile-only  {display: inline;}
+.content {padding: .5em .5em .5em .5em;}
+.mobile {padding: .5em .5em .5em .5em;
+	margin: 0;}
+
+/*hyper-link special effects*/
+
+
+	/*{shorthand: top right bottom left;}*/

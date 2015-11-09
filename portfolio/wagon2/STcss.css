@@ -1,0 +1,412 @@
+body {
+	background-color: #aa0000;
+	background: -webkit-linear-gradient(#aa0000, #000000, #aa0000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#aa0000, #000000, #aa0000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#aa0000, #000000, #aa0000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#aa0000, #000000, #aa0000); /* Standard syntax */
+	font-family: Arial, sans-serif;
+	font-size: 1.25em;
+}
+
+div {text-align:center;}
+
+h3 {color: #ffffff;}
+
+.alternate {color: #ffffff;}
+	
+#flash850 {display: block;
+	text-align:center;}
+
+#flash600 {display: none;}
+ 
+/******* ALTERNATE SITE *******/
+#wrapper {
+	width: 850px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #999;
+	background: -webkit-linear-gradient(#fff, #999 400px, #555); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fff, #999 400px, #555); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fff, #999 400px, #555); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fff, #999 400px, #555); /* Standard syntax */
+}
+
+/* NAVIGATION */
+#navbar {
+	background-color: #000;
+	color: #ffffff;
+	height: 50px;
+	background-image: url("images/navbar.jpg");
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.homeBtn {float: left;}
+
+#nav {
+	float: right;
+	margin: 0;
+	padding: 0;
+	font-family: Algerian, serif;
+}
+#nav a {
+	text-decoration: none;
+	color: #ffffff;
+	padding: 0 15px 0 0;
+	margin: 0;
+	line-height: 175%;
+	font-size: 1.5em;
+}
+
+/* CONTENT */
+#content {
+	text-align: left;
+}
+
+embed  {
+	clear: both;
+}
+
+.down {
+	padding-top: 150px;
+}
+ 
+.narrow {
+	width: 35%;
+}
+
+#content a{
+	color: #aa0000;
+	text-decoration: none;
+}
+
+h2 {
+color: #aa0000;
+padding: 0 20px 0 20px;
+}
+p {
+	color: #fff;
+	padding: 0 20px 0 20px;
+}
+
+#products {
+	clear: both;
+	float: right;
+	display: bock;
+	margin-right: 25px;
+	margin-bottom: 19px;
+}
+
+/* contact page content*/
+
+.shortParagraph {
+	width: 50%;
+}
+
+.emailAdress {
+	float: right;
+	padding: 1em;
+	margin: 0 ;
+	color: #000;
+	width: 30%;
+	text-align: center;
+	font-size: .9em;
+}
+
+.clear {
+	clear: both;
+}
+
+.darkRed {
+	color: #aa0000;
+	font-size: 1.1em;
+}
+.contact{
+	float: right;
+	padding: 1em;
+	margin: 30px 20px 0 0;
+	color: #aa0000;
+	-webkit-border-radius: 1em; 
+	-moz-border-radius: 1em; 
+	border-radius: 1em;
+	  /* radial gradient*/
+	background-color: #555;
+	background: -webkit-radial(circle, #fff, #666); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(circle, #fff, #666); /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(circle, #fff, #666); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(circle, #fff, #666); /* Standard syntax */
+}
+
+.DarkRedTitle {
+	font-family: Algerian, serif;
+	color: #000000;
+	font-size: 1.3em;
+}
+
+.envelopeBtn {
+	display: block;
+	margin: 2em auto 0 auto;
+}
+
+/* home page content */
+.titleImage {
+	width: 100%;
+}
+
+/* FOOTER */
+
+#footer {
+	clear: both;
+	background-color: #000;
+	color: #ffffff;
+	height: 50px;
+	font-size: .85em;
+	font-style: italic;
+	background-image: url("images/footer.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+	margin: 0;
+	padding: 0;
+}
+
+
+#fnav {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 7px;
+}
+#fnav a {
+	text-decoration: none;
+	color: #ffffff;
+	padding: 0 0 0 15px;
+	margin: 0;
+	line-height: 275%;
+}
+#footer p {
+	color: #000;
+	font-weight: normal;
+	float: right;
+	font-size: .75em;
+	margin: 0;
+	padding: 8px 10px;
+	text-align: right;
+}
+#footer p a {
+	color: #000;
+	text-decoration: none;
+}
+
+/*hyper-link special effects*/
+#fnav a:link {}
+#fnav a:visited {}
+#fnav a:focus {color: #ff0000;}
+#fnav a:hover {color: #ff0000;}
+#fnav a:active {color: #ff0000;}
+#nav a:link {}
+#nav a:visited {}
+#nav a:focus {color: #ff0000;}
+#nav a:hover {color: #ff0000;}
+#nav a:active {color: #ff0000;}
+#footer p a:link {}
+#footer p a:visited {}
+#footer p a:focus {color: #aa0000;}
+#footer p a:hover {color: #aa0000;}
+#footer p a:active {color: #aa0000;}
+#content a:link {}
+#content a:visited {}
+#content a:focus {color: #ff0000;}
+#content a:hover {color: #ff0000;}
+#content a:active {color: #ff0000;}
+.envelopeBtn:link {}
+.envelopeBtn:visited {}
+.envelopeBtn:focus {background-color: #ff0000}
+.envelopeBtn:hover {background-color: #ff0000}
+.envelopeBtn:active {background-color: #ff0000}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	#flash850 {display: block;}
+	#flash600 {display: none;}
+}
+
+@media only screen and (max-width: 850px), only screen and (max-device-width: 	850px) {
+	#flash850 {display: none;}
+	#flash600 {display: block;}
+	
+	/******* ALTERNATE SITE *******/
+	#wrapper {
+		width: 600px;
+		background-color: #999;
+		background: -webkit-linear-gradient(#fff, #999 500px, #555); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#fff, #999 500px, #555); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#fff, #999 500px, #555); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#fff, #999 500px, #555); /* Standard syntax */
+	}
+
+	/* NAVIGATION */
+	#navbar {
+		height: 75px;
+		background-image: url("images/navbar600.jpg");
+		background-repeat: no-repeat;
+		background-position: top left;
+	}
+
+	
+	.homeBtn {
+		float: left;
+	}
+
+	#nav {
+		display: block;
+		margin-top: 5px;
+		width: 350px;
+	}
+	#nav a {
+		padding-right: 5px;
+		line-height: 115%;
+	
+	}
+	#nav li {text-decoration: none;
+		display: inline-block;}
+		
+	li.menu img{display: none;}
+	
+	.offsetRight {
+		float: right;
+		display: inline-block;
+	}
+
+	.offsetLeft {
+		float: left;
+		display: inline-block;
+	}
+
+	/* CONTENT */
+
+	#products {
+		float: none;
+		margin: 40px auto 40px auto;
+	}
+
+	.down {
+		padding-top: 0;
+	}
+
+	.narrow {
+		width: 100%;
+	}
+
+	h2 {
+	color: #aa0000;
+	padding: 0 20px 0 20px;
+	}
+	p {
+		color: #fff;
+		padding: 0 20px 0 20px;
+	}
+
+	/* contact page content */
+	.shortParagraph {
+		width: 60%;
+	}
+
+	.contact{
+		margin: 0 20px 15px 0;
+	}
+	
+	.emailAdress {
+		float: right;
+		padding: 1em;
+		margin: 0 ;
+		color: #000;
+		width: 43%;
+		text-align: center;
+		font-size: .9em;
+	}
+
+}
+
+@media only screen and (max-device-width: 610px) {
+	#wrapper {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		font-size: 1.5em;
+	}
+	#navbar {
+		background-image: none;
+		background-color: #000;
+		height: auto;
+
+	}
+	
+	.homeBtn {width: 50%;
+		height: auto;
+		margin-bottom: 50px;
+	}
+
+	#nav {
+		padding: 0;
+		margin: 0;
+		width: 50%;
+	}
+	
+	#nav li {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	#nav a {
+		margin: 1em;
+		padding: 1em;
+		width: 100%;
+		line-height: 300%;
+	}
+	
+	.offsetRight, .offsetLeft {
+		width: 100%;
+		background-color: #000;
+		display: none;
+		margin: 0;
+		padding: 0;
+		z-index: 2;
+	}
+	
+	li.menu img{
+		display: block;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: auto;
+	}
+	
+	
+	
+	ul#nav li.menu:hover ul.offsetLeft, ul#nav li.menu:hover ul.offsetRight {display: block;}
+	
+	.envelopeBtn {
+		width: 20%;
+		clear: both;
+	}
+	
+	.titleImage {
+		z-index: 1;
+	}
+	
+	/* FOOTER */
+	
+#footer {
+	height: auto;
+	background-image: none;
+}
+
+#footer p {
+	color: #ffffff;
+}
+#footer p a {
+	color: #ffffff;
+}
+	
+}

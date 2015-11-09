@@ -1,0 +1,11 @@
+#a6c979 green
+
+#0b1d3f navy
+
+#2b55a9 mid blue
+
+#6384c1 light blue
+
+#c8d3e8 lighter blue
+
+#f3f5f9 white blue
