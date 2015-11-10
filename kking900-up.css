@@ -41,7 +41,6 @@ h3 {text-align: left;
 	line-height: 100%;
 	padding: .5em 0;
 	margin: 0 0 .4em 0;
-	clear: both;
 	text-shadow: 1px 1px #0b1d3f, -1px -1px #fff;}
 	
 .h3 {text-align: center;
@@ -51,7 +50,6 @@ h3 {text-align: left;
 	line-height: 100%;
 	padding: .5em 0;
 	margin: 0 0 .4em 0;
-	clear: both;
 	text-shadow: 1px 1px #0b1d3f, -1px -1px #fff;}
 
 .title-font {
@@ -83,6 +81,7 @@ h3 {text-align: left;
 	-webkit-border-radius: .2em; 
 	-moz-border-radius: .2em; 
 	border-radius: .2em;
+	clear: both;
 }
 
 .midborder {border-top: 2px dotted #6384c1;
@@ -92,6 +91,7 @@ h3 {text-align: left;
 	width: 100%;}
 	
 .toppadding{padding-top: .1em;}
+.toppaddingh3{padding-top: 1em;}
 
 .pageheader {background-color: #2b55a9;}
 
@@ -244,7 +244,7 @@ td h3 {
 .repair img {width: 95%}
 
 /*Thumbnail icons*/
-p.thumbnailIcon img {
+.thumbnailIcon img {
 	-webkit-box-shadow: 2px 2px 4px #0b1d3f, -1px -1px #f3f5f9; 
 	-moz-box-shadow: 2px 2px 4px #0b1d3f, -1px -1px #f3f5f9; 
 	box-shadow: 2px 2px 4px #0b1d3f, -1px -1px #f3f5f9;
@@ -255,8 +255,16 @@ p.thumbnailIcon img {
 	height: 50px;
 	float: left;
 }
-div.thumbnailIconText {
+.thumbnailIconText {
 	margin-left: 4em;
+}
+.thumbnailIcon img:focus,
+.thumbnailIcon img:hover,
+.thumbnailIcon img:active {
+	-webkit-box-shadow: 1px 1px 1px #0b1d3f, -1px -1px #f3f5f9; 
+	-moz-box-shadow: 1px 1px 1px #0b1d3f, -1px -1px #f3f5f9; 
+	box-shadow: 1px 1px 1px #0b1d3f, -1px -1px #f3f5f9;
+
 }
 
 /*add space to bottom of to coursework page*/
@@ -385,7 +393,7 @@ div.thumbnailIconText {
 	background-image: url(images/indigo_bunting_blue_rounded.png), url(images/background-crystal1.gif);
 	background-position: center center, right top;
 	background-repeat: no-repeat, repeat;
-	margin: 1em 0 1em 1em;
+	margin: 1em 0 2em 1em;
 	-webkit-box-shadow: inset 2px 2px 4px #0b1d3f, inset -1px -1px #fff; 
 	-moz-box-shadow: inset 2px 2px 4px #0b1d3f, inset -1px -1px #fff; 
 	box-shadow: inset 2px 2px 4px #0b1d3f, inset -1px -1px #fff;
@@ -420,7 +428,29 @@ div.thumbnailIconText {
 	font-size: 1.3em;
 	line-height: 0;
 }
-	
+.homefloatright span.one {
+	display: block;
+	position: relative;
+	top: -63px;
+	color: #f3f5f9;
+	font-weight: 600;
+	text-align: center;
+	text-shadow: 3px 3px 4px #0b1d3f;
+	font-size: 1.3em;
+	line-height: 0;
+}
+.homefloatright span.two {
+	display: block;
+	position: relative;
+	top: -35px;
+	color: #f3f5f9;
+	font-weight: 600;
+	text-align: center;
+	text-shadow: 3px 3px 4px #0b1d3f;
+	font-size: 1.3em;
+	line-height: 0;
+}
+
 .text-center {text-align: center;}
 .margin-center {
 	margin-left: auto;
@@ -1595,20 +1625,64 @@ div.borderBox1 span {
 }
 
 /******unordered lists ******/
-ul#sitemap, ul#services, .coursework ul {
+ul#services, .coursework ul {
 	list-style-image: url(images/crystal20circle.png);
 }
 
 ul#sitemap {
 	padding: 0;
 	margin: 0 0 0 30px;
+	list-style-type: none;
 }
 
 ul#sitemap li {
 	padding: 0 0 5px 0;
-	margin: 0;
+	margin: .5em 0 0 0;
+	list-style-type: none;
+	clear: left;
 }
+.crystalcir-noshad img{
+	-webkit-box-shadow: 2px 2px 2px #0b1d3f, -1px -1px #f3f5f9; 
+	-moz-box-shadow: 2px 2px 2px #0b1d3f, -1px -1px #f3f5f9; 
+	box-shadow: 2px 2px 2px #0b1d3f, -1px -1px #f3f5f9;
+	-webkit-border-radius: 9px; 
+	-moz-border-radius: 9px; 
+	border-radius: 9px;
+	width: auto;
+	height: auto;
+	float: left;
+	margin-bottom: 0;
+}
+.crystalcir-noshad img:focus,
+.crystalcir-noshad img:hover,
+.crystalcir-noshad img:active {
+	-webkit-box-shadow: 1px 1px 0px #0b1d3f, -1px -1px #f3f5f9; 
+	-moz-box-shadow: 1px 1px 0px #0b1d3f, -1px -1px #f3f5f9; 
+	box-shadow: 1px 1px 0px #0b1d3f, -1px -1px #f3f5f9;
 
+}
+ul#sitemap li.thumbnailIcon {
+	margin-bottom: 2em;
+	margin-top: 0;
+}
+ul#sitemap li ul li.thumbnailIcon {
+	margin-bottom: 0;
+}
+ul#sitemap li ul {
+	margin-top: 2em;
+}
+.crystalcir-noshad .thumbnailIconText {
+	margin-left: 2em;
+}
+ul#sitemap .thumbnailIcon .thumbnailIconText {
+	position: relative;
+	top: 10px;
+}
+ul#sitemap .crystalcir-noshad .thumbnailIconText {
+	margin-left: 2em;
+	position: relative;
+	top: 0;
+}
 /*mobile vs desktop*/
 #mobile-only  {display: none;}
 .mobile {margin: 0;

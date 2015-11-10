@@ -1,7 +1,7 @@
 <?php $thisPage="Porfolio"; ?>
 <?php $thisPageClass="HTML5 Canvas Examples"; ?>
 
-<!--Head Area -->
+
 <?php include("phpincludes/head.php"); ?>
 
 <body>

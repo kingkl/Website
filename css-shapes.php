@@ -1,7 +1,7 @@
 <?php $thisPage="Porfolio"; ?>
 <?php $thisPageClass="CSS Shapes & Animations"; ?>
 
-<!--Head Area -->
+
 <?php include("phpincludes/head.php"); ?>
 
 <body>

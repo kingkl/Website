@@ -1,7 +1,7 @@
 <?php $thisPage="Porfolio"; ?>
 <?php $thisPageClass="Coursework"; ?>
 
-<!--Head Area -->
+
 <?php include("phpincludes/head.php"); ?>
 
 <body>

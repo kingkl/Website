@@ -1,7 +1,7 @@
 <?php $thisPage="Contact Me"; ?>
 <?php $thisPageClass=""; ?>
 
-<!--Head Area -->
+
 <?php include("phpincludes/head.php"); ?>
 
 <body>

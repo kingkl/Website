@@ -1,7 +1,7 @@
 ﻿<?php $thisPage="Resume"; ?>
 <?php $thisPageClass=""; ?>
 
-<!--Head Area -->
+
 <?php include("phpincludes/head.php"); ?>
 
 <body>

@@ -1,7 +1,7 @@
 <?php $thisPage="Porfolio"; ?>
 <?php $thisPageClass="Digital Image Projects"; ?>
 
-<!--Head Area -->
+
 <?php include("phpincludes/head.php"); ?>
 
 <body>

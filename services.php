@@ -1,7 +1,7 @@
 <?php $thisPage="Services"; ?>
 <?php $thisPageClass=""; ?>
 
-<!--Head Area -->
+
 <?php include("phpincludes/head.php"); ?>
 
 <body>
@@ -37,8 +37,8 @@
 					<li>Digital Image enhancement.</li>
 					<li>Photograph/Digital Image repair.</li>
 				</ul><!--end unordered list-->
-				<p class="thumbnailIcon"><a href="contact.php"><img  src="images/contact-small.png" alt="contact hyperlink"></a><div class="thumbnailIconText">Please <a href="contact.php">contact me</a> for additional information or to discuss your web design and development needs.</div></p>
-				<p class="thumbnailIcon"><a href="KandiceKingResume.pdf" target="_blank"><img  src="images/resume-small.png" alt="resume hyperlink"></a><div class="thumbnailIconText">If you would like to see my resume you can find it here.</div></p>
+				<p class="thumbnailIcon"><a href="contact.php"><img  src="images/thumbnails/contact-small.png" alt="contact hyperlink"></a><div class="thumbnailIconText">Please <a href="contact.php">contact me</a> for additional information or to discuss your web design and development needs.</div></p>
+				<p class="thumbnailIcon"><a href="KandiceKingResume.pdf" target="_blank"><img  src="images/thumbnails/resume-small.png" alt="resume hyperlink"></a><div class="thumbnailIconText">If you would like to see my resume you can find it here.</div></p>
 			</div>
 		</div>
 		<div class="bottomRow"></div>
