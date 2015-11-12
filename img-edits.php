@@ -35,7 +35,7 @@
 					<br><br>
 			</div>
 
-			<div id="mobile-only">
+			<div id="mobile-only" class="gallery">
 				<h3 class="project-title">Movie Poster</h3>
 					<div class="project-align"><a href="movie-poster.html" target="_blank"><img src="portfolio/image-editing/movie_poster-850.jpg" alt="Poster advertising a movie" title="Source of photos Pixabay and Unsplash. The television program Cade's County, Spc. Howard Ketter, Benjamin Ellis, and Tabercil via Wikipedia."></a><br>This poster was created as a project in my CIST2531 - Web Graphics II (Advanced Adobe Photoshop) class.
 					</div>
@@ -50,6 +50,7 @@
 			</div>
 		</div>
 		</div>
+		<div class="bottomRow">&nbsp;</div>
 	</div>
 
 

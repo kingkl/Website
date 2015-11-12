@@ -142,7 +142,9 @@ td img {width: 60%;}
 button.menuBtn {
 	display: block;
 }
-ul#mobileNav li:hover ul#nav{
+ul#mobileNav li:focus ul#nav,
+ul#mobileNav li:hover ul#nav,
+ul#mobileNav li:active ul#nav{
 	display: block;
 	text-align: right;
 }
@@ -241,8 +243,9 @@ ul#nav li ul.dropdown a {
 ul#nav li a small{
 	margin-right: 0;
 }
-
-ul#nav li:hover ul.dropdown {
+ul#nav li:focus ul.dropdown,
+ul#nav li:hover ul.dropdown,
+ul#nav li:active ul.dropdown {
 	display: block;
 	position: relative;
 	top: 0;
@@ -250,7 +253,9 @@ ul#nav li:hover ul.dropdown {
 }
 /*testing*/
 
-ul#nav ul.dropdown li:hover ul.dropdown2 {
+ul#nav ul.dropdown li:focus ul.dropdown2,
+ul#nav ul.dropdown li:hover ul.dropdown2,
+ul#nav ul.dropdown li:active ul.dropdown2 {
 	margin: 0;
 	padding: 0;
 	display: block;
@@ -258,7 +263,9 @@ ul#nav ul.dropdown li:hover ul.dropdown2 {
 	left: -170px;
 	top: 2px;
 }
-ul#nav ul.dropdown li:hover ul.dropdown3{
+ul#nav ul.dropdown li:focus ul.dropdown3,
+ul#nav ul.dropdown li:hover ul.dropdown3,
+ul#nav ul.dropdown li:active ul.dropdown3{
 	margin: 0;
 	padding: 0;
 	display: block;
@@ -266,7 +273,9 @@ ul#nav ul.dropdown li:hover ul.dropdown3{
 	left: -170px;
 	top: 57px;
 }
-ul#nav ul.dropdown li:hover ul.dropdown4{
+ul#nav ul.dropdown li:focus ul.dropdown4,
+ul#nav ul.dropdown li:hover ul.dropdown4,
+ul#nav ul.dropdown li:active ul.dropdown4{
 	margin: 0;
 	padding: 0;
 	display: block;

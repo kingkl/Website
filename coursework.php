@@ -68,10 +68,9 @@
 				</ul>
 			
 			</div>
-				<div class="test"><a href="test/index.html">&nbsp; &nbsp; &nbsp; &nbsp;</a></div>
-				<br>		
+						
 		</div>
-			
+	<div class="bottomRow">&nbsp;</div>		
 	</div>
 
 

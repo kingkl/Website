@@ -2,7 +2,7 @@ body {background-color: #a6c979;
 	background-image: url(images/background-crystal1.gif);
 	background-repeat: repeat;
 	color: #0b1d3f; 
-	font-size: 1.1em;
+	font-size: 1em;
 	font-family: Poppins, sans-serif;
 	font-weight: 400;
 	margin: 0;
@@ -252,11 +252,11 @@ td h3 {
 	-moz-border-radius: .3em; 
 	border-radius: .3em;
 	width: auto;
-	height: 50px;
+	height: 45px;
 	float: left;
 }
 .thumbnailIconText {
-	margin-left: 4em;
+	margin-left: 4.5em;
 }
 .thumbnailIcon img:focus,
 .thumbnailIcon img:hover,
@@ -456,6 +456,7 @@ td h3 {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .floatright {float: right;}
 .floatright1 {float: right;}
 .floatleft {float: left;}
@@ -543,6 +544,7 @@ ul#nav {
 	text-shadow: -1px -1px #0b1d3f, 1px 1px #0b1d3f, 1px -1px #0b1d3f, -1px 1px #0b1d3f;
 	padding: 0;
 	position: relative;
+	font-size: 1.1em;
 }
 #nav li {
 	display: inline; 
@@ -610,7 +612,9 @@ ul#nav li ul.dropdown a {
 .topddb {
 	border-top: 1px solid #2b55a9;
 }
-ul#nav li:hover ul.dropdown {
+ul#nav li:focus ul.dropdown,
+ul#nav li:hover ul.dropdown,
+ul#nav li:active ul.dropdown {
 	display: block;
 	position: absolute;
 	top: 36px;
@@ -653,8 +657,9 @@ ul#nav li ul.dropdown ul.dropdown2 a , ul#nav li ul.dropdown ul.dropdown3 a, ul#
 	padding: 10px;
 	display: block;
 }
-
-ul#nav ul.dropdown li:hover ul.dropdown2 {
+ul#nav ul.dropdown li:focus ul.dropdown2,
+ul#nav ul.dropdown li:hover ul.dropdown2,
+ul#nav ul.dropdown li:active ul.dropdown2 {
 	text-shadow: -1px -1px #c8d3e8, 1px 1px #c8d3e8, 1px -1px #c8d3e8, -1px 1px #c8d3e8;
 	margin: 0;
 	padding: 0;
@@ -663,7 +668,9 @@ ul#nav ul.dropdown li:hover ul.dropdown2 {
 	left: -181px;
 	top: 0;
 }
-ul#nav ul.dropdown li:hover ul.dropdown3{
+ul#nav ul.dropdown li:focus ul.dropdown3,
+ul#nav ul.dropdown li:hover ul.dropdown3,
+ul#nav ul.dropdown li:active ul.dropdown3{
 	text-shadow: -1px -1px #c8d3e8, 1px 1px #c8d3e8, 1px -1px #c8d3e8, -1px 1px #c8d3e8;
 	margin: 0;
 	padding: 0;
@@ -672,7 +679,9 @@ ul#nav ul.dropdown li:hover ul.dropdown3{
 	left: -181px;
 	top: 60px;
 }
-ul#nav ul.dropdown li:hover ul.dropdown4{
+ul#nav ul.dropdown li:focus ul.dropdown4,
+ul#nav ul.dropdown li:hover ul.dropdown4,
+ul#nav ul.dropdown li:active ul.dropdown4{
 	text-shadow: -1px -1px #c8d3e8, 1px 1px #c8d3e8, 1px -1px #c8d3e8, -1px 1px #c8d3e8;
 	margin: 0;
 	padding: 0;
@@ -712,10 +721,18 @@ ul#nav ul.dropdown li:hover ul.dropdown4{
 	color: #f3f5f9;}
 .arrowRight {display: none;
 	float: right;}
-ul#nav ul.dropdown li:hover .arrowDown {display: none;}
-ul#nav ul.dropdown li:hover .arrowRight{display: none;}
-ul#nav ul.dropdown li:hover .arrowDownL {display: none;}
-ul#nav ul.dropdown li:hover .arrowLeft{display: inline;}
+ul#nav ul.dropdown li:focus .arrowDown,
+ul#nav ul.dropdown li:hover .arrowDown,
+ul#nav ul.dropdown li:active .arrowDown {display: none;}
+ul#nav ul.dropdown li:focus .arrowRight,
+ul#nav ul.dropdown li:hover .arrowRight,
+ul#nav ul.dropdown li:active .arrowRight{display: none;}
+ul#nav ul.dropdown li:focus .arrowDownL,
+ul#nav ul.dropdown li:hover .arrowDownL,
+ul#nav ul.dropdown li:active .arrowDownL {display: none;}
+ul#nav ul.dropdown li:focus .arrowLeft,
+ul#nav ul.dropdown li:hover .arrowLeft,
+ul#nav ul.dropdown li:active .arrowLeft{display: inline;}
 
 
 	
@@ -897,18 +914,13 @@ figure {
 	transition: opacity 2s;
 }
 /*CSS animations*/
-.homefloatright p:focus {
-    -webkit-animation: myOpacity 5s 1; /* Chrome, Safari, Opera */
-    animation: myOpacity 10s 1;
-}
-.homefloatright p:hover {
-    -webkit-animation: myOpacity 5s 1; /* Chrome, Safari, Opera */
-    animation: myOpacity 10s 1;
-}
+.homefloatright p:focus,
+.homefloatright p:hover,
 .homefloatright p:active {
     -webkit-animation: myOpacity 5s 1; /* Chrome, Safari, Opera */
     animation: myOpacity 10s 1;
 }
+
 	/* Chrome, Safari, Opera */
 @-webkit-keyframes myOpacity {
     50% {opacity: 0;}
@@ -955,6 +967,44 @@ div.shapeParallelogram:hover {
 	transition: transform 2s, margin 2s;
 }
 /***END Parallelogram course work page***/
+/***Hover Parallelogram shapes page***/
+.shapeParallelogram2 {
+	display: block;
+	width: 75px;
+	height: 50px;
+	margin: 0 auto 0 auto;
+	padding: 0;
+	background-color: #2b55a9;
+	-webkit-box-shadow: 2px 2px 4px #0b1d3f, -1px -1px #fff; 
+	-moz-box-shadow: 2px 2px 4px #0b1d3f, -1px -1px #fff; 
+	box-shadow: 2px 2px 4px #0b1d3f, -1px -1px #fff;
+	-webkit-border-radius: .2em; 
+	-moz-border-radius: .2em; 
+	border-radius: .2em;
+	-webkit-transform: skew(15deg); 
+	-moz-transform: skew(15deg); 
+	-ms-transform: skew(15deg); 
+	-o-transform: skew(15deg);
+	transform: skew(15deg);
+	-webkit-transition: transform 2s, margin 2s;
+	-moz-transition: transform 2s, margin 2s;
+	-ms-transition: transform 2s, margin 2s;
+	-o-transition: transform 2s, margin 2s;
+	transition: transform 2s, margin 2s;
+}
+/*CSS animations*/
+div.shapeParallelogram2:hover {
+	margin: 20px auto 0 auto;
+	-webkit-transform: skew(-15deg); 
+	-moz-transform: skew(-15deg); 
+	-o-transform: skew(-15deg);
+	transform: skew(-15deg);
+	-webkit-transition: transform 2s, margin 2s;
+	-moz-transition: transform 2s, margin 2s;
+	-o-transition: transform 2s, margin 2s;
+	transition: transform 2s, margin 2s;
+}
+/***END Hover Parallelogram shapes page***/
 /***Parallelogram shapes page***/
 .shapeParallelogram1 {
 	display: block;
@@ -1001,7 +1051,74 @@ div.shapeParallelogram1 {
 		margin-top: 20px;}
 }
 /***END Parallelogram shapes page***/
+/***Hover diamond shapes page***/
+.diamondBox2 {
+	display: block;
+	width: 200px;
+	height: auto;
+	margin:  0 auto 0 auto;
+	padding: 0 0 0 0px;
+	vertical-align: middle;
+}
+.diamond2 {
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 0 0 0 0;
+	padding: 0;
+	background-color: #a6c979;
+	-webkit-box-shadow: 2px 2px 4px #0b1d3f, -1px -1px #fff; 
+	-moz-box-shadow: 2px 2px 4px #0b1d3f, -1px -1px #fff; 
+	box-shadow: 2px 2px 4px #0b1d3f, -1px -1px #fff;
+	-webkit-border-radius: .2em; 
+	-moz-border-radius: .2em; 
+	border-radius: .2em;
+	-webkit-transform: rotate(45deg); 
+	-moz-transform: rotate(45deg); 
+	-ms-transform: rotate(45deg); 
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transform-origin: 75% 100% 0; 
+	-moz-transform-origin: 75% 100% 0; 
+	-o-transform-origin: 75% 100% 0;
+	transform-origin: 75% 100% 0;
+	-webkit-transition: transform 2s, transform-origin 2s;
+	-moz-transition: transform 2s, transform-origin 2s;
+	-ms-transition: transform 2s, transform-origin 2s;
+	-o-transition: transform 2s, transform-origin 2s;
+	transition: transform 2s, transform-origin 2s;
+}
+.diamondBox2:hover .diamond2 {
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 0 0 0 0;
+	padding: 0;
+	background-color: #a6c979;
+	-webkit-box-shadow: 2px 2px 4px #0b1d3f, -1px -1px #fff; 
+	-moz-box-shadow: 2px 2px 4px #0b1d3f, -1px -1px #fff; 
+	box-shadow: 2px 2px 4px #0b1d3f, -1px -1px #fff;
+	-webkit-border-radius: .2em; 
+	-moz-border-radius: .2em; 
+	border-radius: .2em;
+	-webkit-transform: rotate(45deg); 
+	-moz-transform: rotate(45deg); 
+	-ms-transform: rotate(45deg); 
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transform-origin: 0 -90% 0; 
+	-moz-transform-origin: 0 -90% 0; 
+	-o-transform-origin: 0 -90% 0;
+	transform-origin: 0 -90% 0;
+	-webkit-transition: transform 2s, transform-origin 2s;
+	-moz-transition: transform 2s, transform-origin 2s;
+	-ms-transition: transform 2s, transform-origin 2s;
+	-o-transition: transform 2s, transform-origin 2s;
+	transition: transform 2s, transform-origin 2s;
+}
 
+
+/***END Hover diamond shapes page***/
 
 /***diamond shapes page***/
 .diamondBox {
@@ -1150,6 +1267,47 @@ div.squareBox1 span {
 }
 /***END square shape page***/
 
+/*** Hover Triangle shape ***/
+.triangleBox2 {
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto 0 auto;
+	padding: 0;
+	-webkit-transform-style: preserve-3d;
+}
+.shapeTriangle2 {
+	display: block;
+	margin: 0 0 0 0;
+	padding: 0;
+	font-size: 60px;
+	text-align: center;
+	color: #2b55a9;
+	text-shadow: 2px 2px 4px #0b1d3f, -1px -1px #fff;
+	position: relative;
+	top: 20px;
+	-webkit-transform: scale(1,1); 
+	-moz-transform: scale(1,1); 
+	-0-transform: scale(1,1); 
+	transform: scale(1,1); 
+	-webkit-transition: transform 2s, color 2s;
+	-moz-transition: transform 2s, color 2s;
+	-o-transition: transform 2s, color 2s;
+	transition: transform 2s, color 2s;
+}
+.triangleBox2:hover  .shapeTriangle2 {
+	-webkit-transform: scale(2,2); 
+	-moz-transform: scale(2,2); 
+	-0-transform: scale(2,2); 
+	transform: scale(2,2); 
+	color: #0b1d3f;
+	-webkit-transition: transform 2s, color 2s;
+	-moz-transition: transform 2s, color 2s;
+	-o-transition: transform 2s, color 2s;
+	transition: transform 2s, color 2s;
+}
+
+/*** END Hover Triangle shape ***/
 
 /*** Triangle shape ***/
 .triangleBox {
@@ -1642,12 +1800,13 @@ ul#sitemap li {
 	clear: left;
 }
 .crystalcir-noshad img{
-	-webkit-box-shadow: 2px 2px 2px #0b1d3f, -1px -1px #f3f5f9; 
-	-moz-box-shadow: 2px 2px 2px #0b1d3f, -1px -1px #f3f5f9; 
-	box-shadow: 2px 2px 2px #0b1d3f, -1px -1px #f3f5f9;
-	-webkit-border-radius: 9px; 
-	-moz-border-radius: 9px; 
-	border-radius: 9px;
+	-webkit-box-shadow: 1px 1px 2px #0b1d3f, -1px -1px #f3f5f9; 
+	-moz-box-shadow: 1px 1px 2px #0b1d3f, -1px -1px #f3f5f9; 
+	box-shadow: 1px 1px 2px #0b1d3f, -1px -1px #f3f5f9;
+	-webkit-border-radius: 50%; 
+	-moz-border-radius: 50%; 
+	border-radius: 50%;
+	border: 0px solid #0b1d3f;
 	width: auto;
 	height: auto;
 	float: left;
@@ -1693,6 +1852,9 @@ ul#sitemap .crystalcir-noshad .thumbnailIconText {
 	float: right;
 	text-decoration: none;}
 	
+.margin-auto {
+	margin: 0 auto 0 auto;
+}
 
 /*hyper-link special effects*/
 #icon a img:link {}

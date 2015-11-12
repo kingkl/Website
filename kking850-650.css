@@ -22,8 +22,7 @@ h2 {text-align: center;
 
 /*Thumbnail icons*/
 p.thumbnailIcon img {
-	width: 50px;
-	height: auto;
+
 }
 
 /*table*/
@@ -90,7 +89,9 @@ ul#nav li a {
 	color: #fff;
 	line-height: 150%;
 }
-ul#nav li:hover ul.dropdown {
+ul#nav li:focus ul.dropdown,
+ul#nav li:hover ul.dropdown,
+ul#nav li:active ul.dropdown {
 	display: block;
 	position: absolute;
 	top: 36px;
@@ -119,7 +120,9 @@ ul#nav li ul.dropdown ul.dropdown2, ul#nav li ul.dropdown ul.dropdown3, ul#nav l
 	z-index: 4;
 	width: 170px;
 }
-ul#nav ul.dropdown li:hover ul.dropdown2 {
+ul#nav ul.dropdown li:focus ul.dropdown2,
+ul#nav ul.dropdown li:hover ul.dropdown2,
+ul#nav ul.dropdown li:active ul.dropdown2 {
 	margin: 0;
 	padding: 0;
 	display: block;
@@ -127,7 +130,9 @@ ul#nav ul.dropdown li:hover ul.dropdown2 {
 	left: -171px;
 	top: 0;
 }
-ul#nav ul.dropdown li:hover ul.dropdown3{
+ul#nav ul.dropdown li:focus ul.dropdown3,
+ul#nav ul.dropdown li:hover ul.dropdown3,
+ul#nav ul.dropdown li:active ul.dropdown3{
 	margin: 0;
 	padding: 0;
 	display: block;
@@ -135,7 +140,9 @@ ul#nav ul.dropdown li:hover ul.dropdown3{
 	left: -171px;
 	top: 55px;
 }
-ul#nav ul.dropdown li:hover ul.dropdown4{
+ul#nav ul.dropdown li:focus ul.dropdown4,
+ul#nav ul.dropdown li:hover ul.dropdown4,
+ul#nav ul.dropdown li:active ul.dropdown4{
 	margin: 0;
 	padding: 0;
 	display: block;

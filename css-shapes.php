@@ -78,11 +78,68 @@
 					</div>
 				</div>
 				<div class="bottomRow"></div>
-				</div>
+			</div>
 			
-				<br> 
+			<div>&nbsp;</div>
+				<div>The shapes below were also created using either CSS or HTML entities and animated using CSS. They are activated when you hover the cursor over them.</div>
+			<div class="allAnimations">
+				<div class="row">
+					<div class="floatleftCSS">
+					<div class="CSSMargin2">
+						<div class="shapeParallelogram2">&nbsp;</div>
+						
+					</div>
+					</div>
+					<div class="floatrightCss">
+					<div class="CSSMargin">
+						
+						<div class="shapeCircleOutside margin-auto"><div class="shapeCircle">&nbsp;</div></div>
+					</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="floatleftCSS">
+					<div class="CSSMargin">
+						
+						<div class="squareBox margin-auto"><span class="shapeSquare">&nbsp;</span></div>
+					</div>
+					</div>
+					<div class="floatrightCss">
+					<div class="CSSMargin">
+						
+						<div class="shapeMisc margin-auto">&nbsp;</div>
+					</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="floatleftCSS">
+					<div class="CSSMargin">
+						<div class="shapeBigSquareOutSide  margin-auto"><div class="shapeSquareRotated">&nbsp;</div></div>
+					</div>
+					</div>
+					<div class="floatrightCss">
+					<div class="CSSMargin">
+						<div class="borderBox margin-auto"><span class="shapeBorder">&nbsp;</span></div>
+						
+					</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="floatleftCSS">
+					<div class="CSSMargin">
+						<div class="triangleBox2"><span class="shapeTriangle2">&#x25B2;</span></div>
+					</div>
+					</div>
+					<div class="floatrightCss">
+					<div class="CSSMargin">
+						<div class="diamondBox2"><div class="diamond2" style="margin-left: auto; margin-right: auto;">&nbsp;</div></div>
+					</div>
+					</div>
+				</div>
+				<div class="bottomRow"></div>
+			</div> 
 		</div>
-
+	<div class="bottomRow">&nbsp;</div>
 	</div>
 
 

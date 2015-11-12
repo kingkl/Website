@@ -39,7 +39,7 @@
 				</div>
 			
 		</div>
-			
+	<div class="bottomRow">&nbsp;</div>		
 	</div>
 
 

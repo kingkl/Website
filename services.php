@@ -41,7 +41,7 @@
 				<p class="thumbnailIcon"><a href="KandiceKingResume.pdf" target="_blank"><img  src="images/thumbnails/resume-small.png" alt="resume hyperlink"></a><div class="thumbnailIconText">If you would like to see my resume you can find it here.</div></p>
 			</div>
 		</div>
-		<div class="bottomRow"></div>
+		<div class="bottomRow">&nbsp;</div>
 	</div>
 
 </div>

@@ -112,7 +112,7 @@
 				
 			</div>
 		</div>
-		<div class="bottomRow"></div>
+		<div class="bottomRow">&nbsp;</div>
 	</div>
 
 </div>

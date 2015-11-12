@@ -74,11 +74,10 @@
 					</div>
 				</div>
 				<div class="bottomRow"></div>
-				</div>
+			</div>
 			
-				<br>
 		</div>
-
+	<div class="bottomRow">&nbsp;</div>
 	</div>
 
 

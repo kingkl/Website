@@ -25,7 +25,7 @@
 			<div class="topborder">&nbsp;</div>
 			
 			<div class="homefloatright">
-				<p><img src="images/bird6-250x250-2.gif" alt="bird changing into the letter K"></p>
+				<p><img src="images/sitemap.png" alt="services image"><span>Site Map</span></p>
 			</div>
 			
 			<div class="toppaddingh3">
@@ -62,7 +62,7 @@
 				</ul><!--end site map-->
 			</div>
 		</div>
-		<div class="bottomRow"></div>
+		<div class="bottomRow">&nbsp;</div>
 	</div>
 
 </div>

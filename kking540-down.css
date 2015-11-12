@@ -149,7 +149,7 @@ button.menuBtn {
 
 /*Image gallery settings*/
 #gallery {display: none;}
-
+.gallery img {width: 99%;}
 /*animations*/
 
 /*******CSS shapes********/
