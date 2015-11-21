@@ -254,6 +254,9 @@ td h3 {
 	width: auto;
 	height: 45px;
 	float: left;
+	-webkit-transition: box-shadow 1s;
+	-moz-transition: box-shadow 1s;
+	transition: box-shadow 1s;
 }
 
 
@@ -277,7 +280,10 @@ td h3 {
 
 /*home page columns*/
 	/*This changes the opacity of what ever image is not hovered over*/
-.fade .floatleftcol a {opacity: 1;}
+.fade .floatleftcol a {
+	opacity: 1;
+	text-decoration: none;
+}
 .fade:hover .floatleftcol a img{
 	opacity: .6;
 	-webkit-transition: opacity 1s;
@@ -289,6 +295,16 @@ td h3 {
 	-webkit-transition: opacity 1s;
 	-moz-transition: opacity 1s;
 	transition: opacity 1s;
+}
+.fade:hover .floatleftcol a:focus  img,
+.fade:hover .floatleftcol a:hover  img,
+.fade:hover .floatleftcol a:active  img {
+	-webkit-box-shadow: 1px 1px 0px #0b1d3f, -1px -1px #f3f5f9; 
+	-moz-box-shadow: 1px 1px 0px #0b1d3f, -1px -1px #f3f5f9; 
+	box-shadow: 1px 1px 0px #0b1d3f, -1px -1px #f3f5f9;
+	-webkit-transition: box-shadow 1s;
+	-moz-transition: box-shadow 1s;
+	transition: box-shadow 1s;
 }
 
 .fade .floatleftcol span {
@@ -335,6 +351,9 @@ td h3 {
 	-webkit-border-radius: 1.5em; 
 	-moz-border-radius: 1.5em; 
 	border-radius: 1.5em;
+	-webkit-transition: box-shadow 1s;
+	-moz-transition: box-shadow 1s;
+	transition: box-shadow 1s;
 }
 #rightcolumn ul {margin-top: .5em;
 	margin-bottom: 0;}
@@ -1906,8 +1925,8 @@ ul#nav li ul.dropdown a:visited {}
 ul#nav li ul.dropdown a:focus {text-shadow: -1px -1px #6384c1, 1px 1px #6384c1, 1px -1px #6384c1, -1px 1px #6384c1; color: #fff;}
 ul#nav li ul.dropdown a:hover {text-shadow: -1px -1px #6384c1, 1px 1px #6384c1, 1px -1px #6384c1, -1px 1px #6384c1; color: #fff;}
 ul#nav li ul.dropdown a:active {text-shadow: -1px -1px #6384c1, 1px 1px #6384c1, 1px -1px #6384c1, -1px 1px #6384c1; color: #fff;}
-.content a:link {color: #0b1d3f; text-decoration: underline;}
-.content a:visited {color: #0b1d3f; text-decoration: underline;}
+.content a:link {color: #0b1d3f;}
+.content a:visited {color: #0b1d3f;}
 .content a:focus {color: #2b55a9; text-decoration: none;}
 .content a:hover {color: #2b55a9; text-decoration: none;}
 .content a:active {color: #2b55a9; text-decoration: none;}
@@ -2047,12 +2066,12 @@ ul#nav li#currentpage ul.dropdown li.ddtitle ul.dropdown4 a:active {color: #0b1d
 #currentpagefooter:hover {color: #0b1d3f; background-color: #a6c979; text-decoration: none; -webkit-border-radius: .3em; -moz-border-radius: .3em; border-radius: .3em;}
 #currentpagefooter:active {color: #0b1d3f; background-color: #a6c979; text-decoration: none; -webkit-border-radius: .3em; -moz-border-radius: .3em; border-radius: .3em;}
 
-.content a .noLink,
-.content a:link .noLink,
-.content a:visited .noLink,
-.content a:focus .noLink,
-.content a:hover .noLink,
-.content a:active .noLink  {
+.content a span.noLink,
+.content a:link span.noLink,
+.content a:visited span.noLink,
+.content a:focus span.noLink,
+.content a:hover span.noLink,
+.content a:active span.noLink  {
 	text-decoration: none;
 	color: #0b1d3f;
 }
@@ -2062,6 +2081,9 @@ ul#nav li#currentpage ul.dropdown li.ddtitle ul.dropdown4 a:active {color: #0b1d
 	-webkit-box-shadow: 0px 0px 0px #0b1d3f, -1px -1px #f3f5f9; 
 	-moz-box-shadow: 0px 0px 0px #0b1d3f, -1px -1px #f3f5f9; 
 	box-shadow: 0px 0px 0px #0b1d3f, -1px -1px #f3f5f9;
+	-webkit-transition: box-shadow 1s;
+	-moz-transition: box-shadow 1s;
+	transition: box-shadow 1s;
 }
 li a:focus img,
 li a:hover img,
@@ -2069,6 +2091,9 @@ li a:active img {
 	-webkit-box-shadow: 0px 0px 0px #0b1d3f, -1px -1px #f3f5f9; 
 	-moz-box-shadow: 0px 0px 0px #0b1d3f, -1px -1px #f3f5f9; 
 	box-shadow: 0px 0px 0px #0b1d3f, -1px -1px #f3f5f9;
+	-webkit-transition: box-shadow 1s;
+	-moz-transition: box-shadow 1s;
+	transition: box-shadow 1s;
 }
 li a:focus ul li img,
 li a:hover ul li img,
@@ -2076,5 +2101,8 @@ li a:active ul li img {
 	-webkit-box-shadow: 0px 0px 0px #0b1d3f, -1px -1px #f3f5f9; 
 	-moz-box-shadow: 0px 0px 0px #0b1d3f, -1px -1px #f3f5f9; 
 	box-shadow: 0px 0px 0px #0b1d3f, -1px -1px #f3f5f9;
+	-webkit-transition: box-shadow 1s;
+	-moz-transition: box-shadow 1s;
+	transition: box-shadow 1s;
 }
 
