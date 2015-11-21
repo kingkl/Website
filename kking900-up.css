@@ -1861,6 +1861,9 @@ ul#sitemap li {
 	height: auto;
 	float: left;
 	margin-bottom: 0;
+	-webkit-transition: box-shadow 1s;
+	-moz-transition: box-shadow 1s;
+	transition: box-shadow 1s;
 }
 
 ul#sitemap li.thumbnailIcon {
