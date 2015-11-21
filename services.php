@@ -31,14 +31,14 @@
 				<p>I offer a variety of website design and development related services including...</p>
 			
 				<ul id="services">
-					<li>Mobile responsive sites utilizing HTML5/CSS3, Javascript, and PHP 5.</li>
-					<li>Wordpress sites with a customized theme.</li>
-					<li>Websites built utilizing Bootstrap.</li>
-					<li>Digital Image enhancement.</li>
-					<li>Photograph/Digital Image repair.</li>
+					<li class="crystalcir-noshad1"><img src="images/crystalcir-noshad.png" alt="crystal circle image"><span class="display-blocksm">Mobile responsive sites utilizing HTML5/CSS3, Javascript, and PHP 5.</span></li>
+					<li class="crystalcir-noshad1"><img src="images/crystalcir-noshad.png" alt="crystal circle image"><span class="display-blocksm">Wordpress sites with a customized theme.</span></li>
+					<li class="crystalcir-noshad1"><img src="images/crystalcir-noshad.png" alt="crystal circle image"><span class="display-blocksm">Websites built utilizing Bootstrap.</span></li>
+					<li class="crystalcir-noshad1"><img src="images/crystalcir-noshad.png" alt="crystal circle image"><span class="display-blocksm">Digital Image enhancement.</span></li>
+					<li class="crystalcir-noshad1"><img src="images/crystalcir-noshad.png" alt="crystal circle image"><span class="display-blocksm">Photograph/Digital Image repair.</span></li>
 				</ul><!--end unordered list-->
-				<p class="thumbnailIcon"><a href="contact.php"><img  src="images/thumbnails/contact-small.png" alt="contact hyperlink"></a><div class="thumbnailIconText">Please <a href="contact.php">contact me</a> for additional information or to discuss your web design and development needs.</div></p>
-				<p class="thumbnailIcon"><a href="KandiceKingResume.pdf" target="_blank"><img  src="images/thumbnails/resume-small.png" alt="resume hyperlink"></a><div class="thumbnailIconText">If you would like to see my resume you can find it here.</div></p>
+				<p class="thumbnailIcon"><a href="contact.php"><img  src="images/thumbnails/contact-small.png" alt="contact hyperlink"></a><span class="display-blockbg">Please <a href="contact.php">contact me</a> for additional information or to discuss your web design and development needs.</span></p>
+				<p class="thumbnailIcon"><a href="KandiceKingResume.pdf" target="_blank"><img  src="images/thumbnails/resume-small.png" alt="resume hyperlink"></a><span class="display-blockbg">If you would like to see my resume you can find it here.</span></p>
 			</div>
 		</div>
 		<div class="bottomRow">&nbsp;</div>

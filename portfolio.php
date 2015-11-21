@@ -1,4 +1,4 @@
-<?php $thisPage="Porfolio"; ?>
+<?php $thisPage="Portfolio"; ?>
 <?php $thisPageClass=""; ?>
 
 

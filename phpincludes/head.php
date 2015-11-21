@@ -3,8 +3,8 @@
 <head>
 	<title>Kandice L. King - <?php echo $thisPage; if ($thisPageClass!="") echo " - $thisPageClass"; ?></title>
 	<meta charset="utf-8">
-	<meta name="keywords" content="Kandice King, website designer, Gwinnett Technical College Student, <?php echo $thisPage; if ($thisPageClass!="") echo ", $thisPageClass"; ?>">
-	<meta name="description" content="Kandice King is a student at Gwinnett Technical College studying Website Design.">
+	<meta name="keywords" content="Kandice King, website designer, Gwinnett Technical College graduate, <?php echo $thisPage; if ($thisPageClass!="") echo ", $thisPageClass"; ?>">
+	<meta name="description" content="Kandice King is a graduate of Gwinnett Technical College Website Design/Development program.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="kking900-up.css" type="text/css">
 	<link rel="stylesheet" href="kking900-800.css" media="only screen and (max-width: 901px)" type="text/css">

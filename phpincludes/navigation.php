@@ -16,7 +16,7 @@
 					<li class="bottomddb2"<?php if ($thisPage=="Services") echo " id=\"currentpage\""; ?>><a href="services.php">Services</a></li>
 					<!--<li class="bottomddb2"><a href="KandiceKingResume.pdf" target="_blank">Resume</a></li>-->
 					<li class="bottomddb2"<?php if ($thisPage=="Contact Me") echo " id=\"currentpage\""; ?>><a href="contact.php">Contact</a></li>
-					<li <?php if ($thisPage=="Porfolio") echo " id=\"currentpage\""; ?>><a href="#">Portfolio <small>&#x25BC;</small></a>
+					<li <?php if ($thisPage=="Portfolio") echo " id=\"currentpage\""; ?>><a href="#">Portfolio <small>&#x25BC;</small></a>
 						<ul class="dropdown">
 							<li class="bottomddb3 ddtitle"><a href="#">WEBSITE DESIGN<br><span class="arrowLeft"> &#x25C4; </span><small class="arrowDownL"> &#x25BC; </small><small class="arrowDown"> &#x25BC; </small><span class="arrowRight"> &#x25BA; </span></a>
 								<ul class="dropdown2">
